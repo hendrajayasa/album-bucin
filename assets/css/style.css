@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+:root {
+    --primary-color: #AF8260;
+    --secondary-color: #37423f;
+    --text-color: #B0B0B0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins';
+    line-height: 1.80857;
+    font-weight: normal;
+}
+
+.navbar a {
+    color: var(--secondary-color);
+}
+
+.navbar a:hover {
+    color: var(--primary-color);
+}
+
+.navbar a.active {
+    color: var(--primary-color) !important;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.content h3 {
+    color: var(--secondary-color);
+    font-size: 24px;
+    font-weight: 400;
+    text-align:center;
+}
+
+.btn-primary-custom-sm {
+    background-color:#2C7865;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-primary-custom-sm:hover {
+    background-color: var(--secondary-color);
+    color: #FFF;
+}
+
+
+.content .list_room img {
+    width: 100%;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.content .list_room h5 {
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content .list_room h6 {
+    color: var(--secondary-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.content .list_room p {
+    color: var(--secondary-color);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+footer {
+    margin-top: 100px;
+    padding-top: 30px;
+    border-top: 1px solid #E5E5E5;
+}
+
+footer p {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 200;
+}
+
+footer h5 {
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 200;
+}
